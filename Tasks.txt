@@ -1,0 +1,16 @@
+1. POM using webdriver.io
+2. Embrace reporting : failed and passed
+3. Dockerization
+4. Parrallel testing
+5. CI/CD
+
+Sites to use
+ -> https://www.saucedemo.com/index.html
+        username: standard_user
+        passwor : secret_sauce
+ -> https://orangehrm-demo-6x.orangehrmlive.com/auth/login
+ -> https://www.ebay.com/
+
+
+Read Chai documentation
+
