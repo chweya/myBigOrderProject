@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="verify_list_of_packages" timestamp="2021-01-12T13:31:20" time="12.007" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="verify list of packages"/>
+      <property name="capabilities" value="chrome.87_0_4280_141.windows"/>
+      <property name="file" value=".\test\packages.test.js"/>
+    </properties>
+    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_navigation_to_packages_page" time="11.682">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/url - {"url":"https://mybigorder.com/"}
+RESULT: {"url":"https://mybigorder.com/"}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/element - {"using":"css selector","value":"a[href*='customer-packages'].top-bar-item"}
+RESULT: {"using":"css selector","value":"a[href*='customer-packages'].top-bar-item"}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ca984b47-17ae-4cc3-b04f-53de966a6615","ELEMENT":"ca984b47-17ae-4cc3-b04f-53de966a6615"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ca984b47-17ae-4cc3-b04f-53de966a6615","ELEMENT":"ca984b47-17ae-4cc3-b04f-53de966a6615"}]}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/element/ca984b47-17ae-4cc3-b04f-53de966a6615/click - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/url - {}
+RESULT: {}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/element - {"using":"css selector","value":"h1.strong-600"}
+RESULT: {"using":"css selector","value":"h1.strong-600"}
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"68ad4d01-fd89-4e92-8c45-fe1e138e40d9","ELEMENT":"68ad4d01-fd89-4e92-8c45-fe1e138e40d9"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"68ad4d01-fd89-4e92-8c45-fe1e138e40d9","ELEMENT":"68ad4d01-fd89-4e92-8c45-fe1e138e40d9"}]}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/68ad4d01-fd89-4e92-8c45-fe1e138e40d9/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_list_of_packages" time="0.302">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/2cab662e23cee584b0cf29e90bad3999/elements - {"using":"css selector","value":"div.c-pointer"}
+RESULT: {"using":"css selector","value":"div.c-pointer"}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/1dce56fe-9b50-4cec-8a82-3d58ac822a85/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/df2459b5-8756-4ffa-9870-5e113f8586b2/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/ee28e128-c65b-49d2-8d97-6822aa5e6ada/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/5181af89-22f1-4485-ac2b-5dc587c214f2/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/c95bea78-2fce-45fb-9147-4bf5b095ef97/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/e246f8f1-9f92-4258-9dcf-1c0bc4c4ec9e/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/07711302-397a-4b50-981c-36eebead45e9/text - {}
+RESULT: {}
+COMMAND: GET /session/2cab662e23cee584b0cf29e90bad3999/element/5f3d502d-40b7-4c98-b76f-3bebef3a012c/text - {}
+RESULT: {}
+COMMAND: DELETE /session/2cab662e23cee584b0cf29e90bad3999 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

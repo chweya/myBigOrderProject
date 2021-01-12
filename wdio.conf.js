@@ -139,7 +139,11 @@ exports.config = {
         ],
         ['junit', 
         {
-            outputDir: './reports'
+            outputDir: './reports',
+            outputFileFormat: function(options)
+            {
+                return `OnlineShoppingresults.xml`
+            }
         }]
     ],  
     
