@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "a[href*='customer-packages'].top-bar-item"
+}
