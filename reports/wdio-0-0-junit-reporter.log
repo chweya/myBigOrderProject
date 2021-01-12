@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="verify_list_of_packages" timestamp="2021-01-12T12:30:34" time="11.21" tests="2" failures="0" errors="0" skipped="0">
+  <testsuite name="verify_list_of_packages" timestamp="2021-01-12T13:14:11" time="10.934" tests="2" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="verify list of packages"/>
       <property name="capabilities" value="chrome.87_0_4280_141.windows"/>
       <property name="file" value=".\test\packages.test.js"/>
     </properties>
-    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_navigation_to_packages_page" time="10.817">
+    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_navigation_to_packages_page" time="10.623">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/url - {"url":"https://mybigorder.com/"}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/url - {"url":"https://mybigorder.com/"}
 RESULT: {"url":"https://mybigorder.com/"}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/window/maximize - {}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/window/maximize - {}
 RESULT: {}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/element - {"using":"css selector","value":"a[href*='customer-packages'].top-bar-item"}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element - {"using":"css selector","value":"a[href*='customer-packages'].top-bar-item"}
 RESULT: {"using":"css selector","value":"a[href*='customer-packages'].top-bar-item"}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"bfe7fe59-f64a-4b08-b602-966d16ceece4","ELEMENT":"bfe7fe59-f64a-4b08-b602-966d16ceece4"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"bfe7fe59-f64a-4b08-b602-966d16ceece4","ELEMENT":"bfe7fe59-f64a-4b08-b602-966d16ceece4"}]}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/element/bfe7fe59-f64a-4b08-b602-966d16ceece4/click - {}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f9ef8d74-4a6b-42d4-996c-e79767641307","ELEMENT":"f9ef8d74-4a6b-42d4-996c-e79767641307"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f9ef8d74-4a6b-42d4-996c-e79767641307","ELEMENT":"f9ef8d74-4a6b-42d4-996c-e79767641307"}]}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/f9ef8d74-4a6b-42d4-996c-e79767641307/click - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/url - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/url - {}
 RESULT: {}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/element - {"using":"css selector","value":"h1.strong-600"}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element - {"using":"css selector","value":"h1.strong-600"}
 RESULT: {"using":"css selector","value":"h1.strong-600"}
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f4fbc872-e71a-435f-b036-94d9250b9e0d","ELEMENT":"f4fbc872-e71a-435f-b036-94d9250b9e0d"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f4fbc872-e71a-435f-b036-94d9250b9e0d","ELEMENT":"f4fbc872-e71a-435f-b036-94d9250b9e0d"}]}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/f4fbc872-e71a-435f-b036-94d9250b9e0d/text - {}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f29c7a0b-8d6c-4ffa-9812-003fa69956e0","ELEMENT":"f29c7a0b-8d6c-4ffa-9812-003fa69956e0"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f29c7a0b-8d6c-4ffa-9812-003fa69956e0","ELEMENT":"f29c7a0b-8d6c-4ffa-9812-003fa69956e0"}]}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/f29c7a0b-8d6c-4ffa-9812-003fa69956e0/text - {}
 RESULT: {}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_list_of_packages" time="0.367">
+    <testcase classname="chrome.87_0_4280_141.windows.verify_list_of_packages" name="verify_list_of_packages" time="0.282">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/b90f27ac89face26c927291f0614bd8c/elements - {"using":"css selector","value":"div.c-pointer"}
+COMMAND: POST /session/812f0cdee5a95d6ed4c2f24f6cc72a14/elements - {"using":"css selector","value":"div.c-pointer"}
 RESULT: {"using":"css selector","value":"div.c-pointer"}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/af384ea9-8563-417d-a8a4-79adcb732f3d/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/8691e90b-f42a-4734-81a5-f595a30cb902/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/ba8fe030-491f-4dde-92ee-c0df71e64c3b/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/55e05853-49a7-4d8d-b4bf-9c927acbaf19/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/546eb18a-cccf-4936-b2a0-818168dbad08/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/6da18a7d-7725-4e1d-83aa-26ce85c54866/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/430dcba0-0897-44bd-81b3-54cdbfc4f290/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/ab4c8a22-c810-4833-b577-f9370c70637a/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/02ef3919-7a80-451f-98ce-cc9c2075e194/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/6d637b7d-5d8a-47d1-be42-3aac23315296/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/3bf6c4ff-1170-475b-96a0-b2341f3a2bd2/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/0fc81658-4322-4a3c-9b3c-e4ee5f9aa38a/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/dcf6dd47-6947-4ac5-9ba8-04d8855fffbf/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/aa14b4f6-12f9-434e-8c42-51f823224988/text - {}
 RESULT: {}
-COMMAND: GET /session/b90f27ac89face26c927291f0614bd8c/element/b41b5933-f47f-476d-8415-4f0690b1e45f/text - {}
+COMMAND: GET /session/812f0cdee5a95d6ed4c2f24f6cc72a14/element/ad750e68-0fdb-4896-bf29-56be14a1e7e7/text - {}
 RESULT: {}
-COMMAND: DELETE /session/b90f27ac89face26c927291f0614bd8c - {}
+COMMAND: DELETE /session/812f0cdee5a95d6ed4c2f24f6cc72a14 - {}
 RESULT: {}
 ]]>
       </system-out>
